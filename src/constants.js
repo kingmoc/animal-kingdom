@@ -28,7 +28,12 @@ export const TERRITORIES = [
     id: 'tundra',
     name: 'Tundra',
     superpower: 'Let it snow!'
-  }
+  },
+  {
+   id: 'rp1',
+   name: 'Ready Player One',
+   superpower: 'May the Digital World be with You :)'
+ }
 ]
 
 export const ME_FILENAME = 'me.json'
@@ -44,6 +49,10 @@ export const OTHER_KINGDOMS = [
     {
        "app": "http://localhost:3001",
        "ruler": "larz.id"
+    },
+    {
+      "app": "https://animalkingdoms.netlify.com",
+      "ruler": "meepers.id.blockstack"
     },
     {
        "app": "https://decentralised-islands.netlify.com",
